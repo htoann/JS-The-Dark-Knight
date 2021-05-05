@@ -1,0 +1,42 @@
+*{
+    text-align: center;
+}
+.dangNhap {
+  background-color: #43257b;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.dangNhap:hover {
+    background-color: #7469da;
+}
+.dangKi {
+    background-color: #851717;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.dangKi:hover {
+    background-color: #d47373;
+}
+.Header {
+    color:#812d2d;
+}

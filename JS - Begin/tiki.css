@@ -1,0 +1,50 @@
+.banner {
+    margin:auto;
+    width: 1115px;
+    display: flex;
+    height: 490px;
+}
+.banner .a1 {
+    margin-right:10px;
+    width: 260px;}
+
+.banner .a1 .hang1 {display: flex;}
+.banner .a1 .hang1 .trai {width: 31px;}
+.banner .a1 .hang1 .phai {width: 220px;}
+
+
+
+
+.banner .a2 {
+    width: 525px;
+}
+
+.banner .a2 .tren {
+    height: 310px;
+}
+.banner .a2 .duoi {
+    height: 160px;
+    display: flex;
+    margin-top:18px;
+}
+.banner .a2 .duoi .left {
+    width: 50%;
+}
+
+img {
+    width: 100%;
+}
+
+.banner .a3 {
+    width: 372px;
+    margin-left:10px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#zz .carousel-indicators {
+    display: none;
+}
+.banner .a3 .saudiv {
+    width: 50%;
+}

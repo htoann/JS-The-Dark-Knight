@@ -1,0 +1,106 @@
+* {margin:0; padding:0}
+h1 {
+     color: red;
+     margin-left: 430px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul {
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: slategray;
+    margin-left: 400px;
+}
+hr {
+    width: 1000px;
+    margin-left: 0px;
+}
+p {
+    width: 800px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 430px;
+    font-size: 18px;
+}
+.image {
+    margin-left: 430px;
+    width: 800px;
+}
+.image.a {
+    margin-left: 1500px;
+}
+b.a {
+    margin-left: 430px;
+    font-size: 18px;
+}
+div.a {
+    display: flex;
+    width:800px;
+}
+.image.b {
+    width:400px;
+    margin-right: 0px; 
+}
+.image.c {
+    width:400px;
+    margin-left: 5px; 
+}
+h1 {
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.batmanpro {
+    position: absolute;
+    top: 135px;
+    left: 10px;
+    width: 300px;
+    height: 300px;
+}
+.batmanpro .xoay {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    transition:1.5s;
+}
+.batmanpro .batman {
+    position: absolute;
+    top: 60px;
+    left: 75px;
+    width: 200px;
+    height: 200px;
+    transition:0.5s;
+}
+.batmanpro:hover .xoay {
+    transform: rotate(720deg);
+}
+
+.menutop .menu2 {
+    display: flex;
+    list-style: none;
+    margin-left:500px;
+}
+.menutop {
+    background:rgb(102, 102, 102);
+    height: 50px;
+    margin:auto;
+}
+.menutop .menu2 a {
+    font-size:25px;
+    text-decoration:none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color:white;
+    width: auto;
+    display: block;
+    padding:5px 10px 2px 15px;
+    transition:0.4s;
+}
+.menutop .menu2 a:hover {
+    margin:block;
+    background-color:black;
+    color:red;
+    display: block;
+    font-size:25px;
+    display: block;
+    padding:10px 30px 10px 20px;
+}

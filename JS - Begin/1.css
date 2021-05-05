@@ -1,0 +1,81 @@
+* {margin:0; padding:0;}
+.bannertop {
+    background: url(adu.jpg) top center;
+    height: 600px;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+.bannertop .bacot {
+    display: flex;
+    position: absolute;
+    width: 100%;
+}
+.bannertop .cottrai {
+    width: 33.33%;
+    margin-top:30px;
+    margin-left: 50px;
+}
+.bannertop .cottrai a{
+    font-size: 30px;
+    color: white;
+}
+.bannertop .cottrai a:hover{color: rgb(61, 32, 138);}
+.bannertop .cot {
+    margin-top: 20px;
+    width: 33.33%;;
+    text-align: center;
+}
+.bannertop .cot img{
+    height: 45px;
+}
+.bannertop .cotphai {
+    text-align: right;
+    width: 33.33%;
+    margin-right: 30px;
+}
+.bannertop .cotphai a {
+    font-size: 30px;
+    color: white;
+    padding-left:5px;
+    padding-top:20px;
+}
+.bannertop .bannertop1 {
+    top:50%;
+    width: 100%;
+    position: absolute;
+    color: white;
+}
+.bannertop .chu {
+    margin: auto;
+    width: 1170px;
+}
+.bannertop .chu .chu2 {
+    line-height: 59px;
+    font-size: 48px;
+    width: 50%;
+    font-family: "Oswald";
+}
+.phanduoi1 {
+    font-size: 20px;
+    display: flex;
+    color: #666;
+    width: 1170px; margin: auto;
+    padding: 80px 0;
+    font-family: 'Amiri', serif;
+}
+.phanduoi1 .left {
+    width: 35%;
+}
+.phanduoi1 .left h3{font-family: "Oswald";
+    width: 200px;
+}
+.phanduoi1 .right {
+    width: 65%;
+}
+.phanduoi1 .right p{
+    margin-top: 15px;
+}
+.phanduoi1 .right p:before{
+    content: "";
+}

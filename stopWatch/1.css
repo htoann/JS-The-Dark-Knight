@@ -1,0 +1,21 @@
+* {
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 2%;
+    font-weight: 100;
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(202, 71, 71);
+    color: white;
+}
+button {
+    font-size: 30px;
+    border-radius: 3px;
+    border: 1px solid;
+    padding: 20px;
+}
+
+span {
+    font-family: 'Open Sans', sans-serif;
+}

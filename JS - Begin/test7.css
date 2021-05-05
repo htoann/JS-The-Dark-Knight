@@ -1,0 +1,22 @@
+a.chu {
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    position: relative; color: black;
+}
+a.chu:after {
+    content:'';
+    background-color: darkcyan;
+    width: 0%;
+    height: 5px;
+    position: absolute;
+    transition:0.3s;
+    bottom:0;
+    left:0;
+}
+a.chu:hover:after {
+    width: 100%;
+}
+.chu {
+    text-decoration: none;
+}

@@ -1,0 +1,36 @@
+* {
+    margin:0; padding:0;}
+.max {
+    width: 600px;
+    position: relative;
+    height: 400px;
+}
+.max .text {
+    top:40px;
+    left:40px;
+    position: absolute;
+    opacity: 0;
+    font-size:25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.3s;
+}
+.max:hover .text {
+    opacity: 1;
+}
+.max .pic {width: 100%; height: 100%;
+    
+}
+.max .xam {
+    width: 100%; height: 100%;
+    position: absolute;
+    background:rgb(209, 208, 208);
+    top:0; left:0;
+    opacity: 0;
+    transition: 0.3s;
+    border:0px rgb(76, 47, 114) solid;
+}
+.max:hover .xam {
+    width: 580px; height: 380px;
+    opacity: 1;
+    border:12px rgb(76, 47, 114) solid;
+}
